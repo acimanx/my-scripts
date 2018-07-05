@@ -1,2 +1,2 @@
 # my-scripts
-##Here I write some scripts for my personal use.
+## Here is my collection of scripts for my personal use.
