@@ -2,7 +2,7 @@ var obj = document.createElement("div");
 //create output element
 obj.id = "output-it";
 //assign id
-obj.style.cssText = "position:fixed;top:1vh;right:1vw;width:20vw;height:50vh;background:#FFF;z-index:999;    white-space: pre;overflow:auto";
+obj.style.cssText = "position:fixed;top:1vh;right:1vw;width:20vw;height:50vh;background:#FFF;z-index:999;white-space:pre;overflow:auto";
 //assign style
 var titleElement = document.getElementsByClassName("audio_row__performer_title");
 //search for title
