@@ -12,7 +12,7 @@ There are several scripts with help of which you can make autolikes, but this sc
 
 ## Dates is a numbers
 In order to find your soulmate you need to get in sight of as much people as you can.
-The good inspiration is the story of [Koichi Toyama][https://en.wikipedia.org/wiki/Koichi_Toyama], it is a Japanese street musician and a fringe political activist who was a candidate for the governor of Tokyo in 2007. In election broadcast, his speech was full of crazy ideas and looked more like a prank or a parody over free democratic system of Japan.
+The good inspiration is the story of [Koichi Toyama](https://en.wikipedia.org/wiki/Koichi_Toyama), it is a Japanese street musician and a fringe political activist who was a candidate for the governor of Tokyo in 2007. In election broadcast, his speech was full of crazy ideas and looked more like a prank or a parody over free democratic system of Japan.
 Despite this, he came eighth in the poll with 15,059 votes.
 
 ### Have fun! 
