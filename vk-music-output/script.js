@@ -1,12 +1,9 @@
-const obj = document.createElement("div");
-obj.id = "output-it";
-obj.style.cssText = "position:fixed;top:1vh;right:1vw;width:20vw;height:50vh;background:#FFF;z-index:999;white-space:pre;overflow:auto";
-const titleElement = document.getElementsByClassName("audio_row__performer_title");
-for (i = 0; i < titleElement.length; i++) {
-    const toolMenuItem = titleElement[i].innerText;
-    const text = document.createTextNode(toolMenuItem);
-    obj.appendChild(text);
-    const titlesBreaker = document.createElement("br");
-    obj.appendChild(titlesBreaker);
-}
-document.body.appendChild(obj);
+const titleElement = document.getElementsByClassName(
+  "audio_row__performer_title"
+);
+const arr = Array.from(titleElement);
+
+const markup =
+  `<textarea style="position:fixed;top:0;right:0;width:50%;height:100%;background:#FFF;z-index:999;white-space:pre;overflow:auto">${arr.map(({innerText}) => `${innerText}\n`).join('')}\n</textarea>\n`;
+
+document.body.innerHTML += markup
