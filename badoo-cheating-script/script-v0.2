@@ -1,0 +1,10 @@
+var allLinks = document.getElementsByClassName('js-folders-user-profile-link');
+let elements = Array.from(allLinks);
+var counter = 0;
+var interval = setInterval(function () {
+	window.open(elements[counter], "popUp", "width=300,height=300")
+	counter++;
+	if ( counter > elements.length ) {
+		clearInterval(interval);
+	}
+}, 100);
