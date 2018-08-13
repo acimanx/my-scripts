@@ -1,6 +1,6 @@
 ## This script allows you to copy all music titles from any account on vk.com
 
-## [Preview on jsfiddle](http://jsfiddle.net/zBKCC/1463/)
+## [Preview on jsfiddle](https://jsfiddle.net/zBKCC/1468/)
 
 How to use:
 1. Go to music page.
